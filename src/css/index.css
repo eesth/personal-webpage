@@ -1,0 +1,16 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.LI-badge-container{
+    background-color: white !important;
+    display:inline-block !important;
+    text-align: justify;
+
+}
+
+.d-flex{
+    text-align: right;
+    width: 100vw;
+    height: 30vh;
+}
