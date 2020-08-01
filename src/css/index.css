@@ -6,11 +6,40 @@ body {
     background-color: white !important;
     display:inline-block !important;
     text-align: justify;
+    float: right;
 
+}
+
+.floatright{
+    float: right;
 }
 
 .d-flex{
     text-align: right;
     width: 100vw;
     height: 30vh;
+}
+
+.div-texto{
+    background-color: grey;
+    border-radius: 80%;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    color: black;
+    font-family: tahoma;
+    float: left;
+    text-align: center;
+}
+
+.relative{
+
+    position: relative;
+    display: inline-block;
+
+}
+
+.title{
+    font-family: sans-serif;
+    color: darkblue;
 }
