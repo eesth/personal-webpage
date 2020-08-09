@@ -21,7 +21,7 @@ body {
 }
 
 .div-texto{
-    background-color: grey;
+    background-color: lightsteelblue;
     border-radius: 80%;
     width: 200px;
     height: 100px;
@@ -40,6 +40,25 @@ body {
 }
 
 .title{
-    font-family: 'Orbitron', sans-serif;
-    color: firebrick;
+    font-family: 'Special Elite', cursive;
+    color: brown;
 }
+
+.bliking{
+    animation-duration: 900ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: monospace;
+    color: red;
+    text-align: center;
+}
+
+@keyframes blink {
+    0% {color:black;
+        opacity: 1}
+    
+    50% {opacity: 0.5;
+        color: red}
+    
+    100% {opacity: 0};
